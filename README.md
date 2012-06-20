@@ -4,14 +4,12 @@
 
 ![image](http://iamjo.sh/github-images/jagridview/1.png)
 
-### THIS IS A WORK IN PROGRESS. SEE DISCUSSION.
-
 ## Overview
 This is a fast, performant library to easily create a Masonry-style image gallery while leveraging the speed, caching, and feel of a `UITableView` control.
 
 ## Discussion
 
-This is an early release and, therefore, some aspects of the library are still rough, but it is fully functional.
+This is an **early public beta** and, therefore, some aspects of the library are still rough, but it is fully functional.
 
 This was developed for an in-house project, so much of the current implementation was tailored to my specific, time-constrained needs. A project roadmap has been developed to eventually make this library more useful to everyone.
 
