@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033C8CF715919A02008D4E14 /* JAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8CF415919A01008D4E14 /* JAAppDelegate.m */; };
+		033C8CF815919A02008D4E14 /* JAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8CF615919A02008D4E14 /* JAViewController.m */; };
+		033C8D0E15919A12008D4E14 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8CFA15919A12008D4E14 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D0F15919A12008D4E14 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8CFC15919A12008D4E14 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1015919A12008D4E14 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8CFE15919A12008D4E14 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1115919A12008D4E14 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0015919A12008D4E14 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1215919A12008D4E14 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0215919A12008D4E14 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1315919A12008D4E14 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0415919A12008D4E14 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1415919A12008D4E14 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0715919A12008D4E14 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1515919A12008D4E14 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0915919A12008D4E14 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1615919A12008D4E14 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0B15919A12008D4E14 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1715919A12008D4E14 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D0D15919A12008D4E14 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		033C8D1D15919A3F008D4E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C8D1B15919A3F008D4E14 /* main.m */; };
+		033C8D2015919A46008D4E14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033C8D1E15919A46008D4E14 /* InfoPlist.strings */; };
+		038A3829158A7E340075EED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A3828158A7E340075EED2 /* UIKit.framework */; };
+		038A382B158A7E340075EED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A382A158A7E340075EED2 /* Foundation.framework */; };
+		038A382D158A7E340075EED2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A382C158A7E340075EED2 /* CoreGraphics.framework */; };
+		03E5D2181591B4230020973B /* JAGridImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5D20E1591B4230020973B /* JAGridImage.m */; };
+		03E5D2191591B4230020973B /* JAGridImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5D2101591B4230020973B /* JAGridImageControl.m */; };
+		03E5D21A1591B4230020973B /* JAGridTableViewAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5D2121591B4230020973B /* JAGridTableViewAbstraction.m */; };
+		03E5D21B1591B4230020973B /* JAGridTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5D2141591B4230020973B /* JAGridTableViewCell.m */; };
+		03E5D21C1591B4230020973B /* JAGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5D2161591B4230020973B /* JAGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033C8CF315919A01008D4E14 /* JAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAAppDelegate.h; path = JAGridViewDemo/JAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		033C8CF415919A01008D4E14 /* JAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAAppDelegate.m; path = JAGridViewDemo/JAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		033C8CF515919A02008D4E14 /* JAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAViewController.h; path = JAGridViewDemo/JAViewController.h; sourceTree = SOURCE_ROOT; };
+		033C8CF615919A02008D4E14 /* JAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAViewController.m; path = JAGridViewDemo/JAViewController.m; sourceTree = SOURCE_ROOT; };
+		033C8CF915919A12008D4E14 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = JAGridViewDemo/External/AFNetworking/AFHTTPClient.h; sourceTree = SOURCE_ROOT; };
+		033C8CFA15919A12008D4E14 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = JAGridViewDemo/External/AFNetworking/AFHTTPClient.m; sourceTree = SOURCE_ROOT; };
+		033C8CFB15919A12008D4E14 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = JAGridViewDemo/External/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8CFC15919A12008D4E14 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = JAGridViewDemo/External/AFNetworking/AFHTTPRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8CFD15919A12008D4E14 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = JAGridViewDemo/External/AFNetworking/AFImageRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8CFE15919A12008D4E14 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = JAGridViewDemo/External/AFNetworking/AFImageRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8CFF15919A12008D4E14 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = JAGridViewDemo/External/AFNetworking/AFJSONRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8D0015919A12008D4E14 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = JAGridViewDemo/External/AFNetworking/AFJSONRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8D0115919A12008D4E14 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONUtilities.h; path = JAGridViewDemo/External/AFNetworking/AFJSONUtilities.h; sourceTree = SOURCE_ROOT; };
+		033C8D0215919A12008D4E14 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONUtilities.m; path = JAGridViewDemo/External/AFNetworking/AFJSONUtilities.m; sourceTree = SOURCE_ROOT; };
+		033C8D0315919A12008D4E14 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = JAGridViewDemo/External/AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = SOURCE_ROOT; };
+		033C8D0415919A12008D4E14 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = JAGridViewDemo/External/AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = SOURCE_ROOT; };
+		033C8D0515919A12008D4E14 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = JAGridViewDemo/External/AFNetworking/AFNetworking.h; sourceTree = SOURCE_ROOT; };
+		033C8D0615919A12008D4E14 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = JAGridViewDemo/External/AFNetworking/AFPropertyListRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8D0715919A12008D4E14 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = JAGridViewDemo/External/AFNetworking/AFPropertyListRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8D0815919A12008D4E14 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = JAGridViewDemo/External/AFNetworking/AFURLConnectionOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8D0915919A12008D4E14 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = JAGridViewDemo/External/AFNetworking/AFURLConnectionOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8D0A15919A12008D4E14 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = JAGridViewDemo/External/AFNetworking/AFXMLRequestOperation.h; sourceTree = SOURCE_ROOT; };
+		033C8D0B15919A12008D4E14 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = JAGridViewDemo/External/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
+		033C8D0C15919A12008D4E14 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "JAGridViewDemo/External/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
+		033C8D0D15919A12008D4E14 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "JAGridViewDemo/External/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		033C8D1915919A3F008D4E14 /* JAGridViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JAGridViewDemo-Info.plist"; path = "JAGridViewDemo/JAGridViewDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		033C8D1A15919A3F008D4E14 /* JAGridViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JAGridViewDemo-Prefix.pch"; path = "JAGridViewDemo/JAGridViewDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		033C8D1B15919A3F008D4E14 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JAGridViewDemo/main.m; sourceTree = SOURCE_ROOT; };
+		033C8D1F15919A46008D4E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = JAGridViewDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		038A3824158A7E340075EED2 /* JAGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038A3828158A7E340075EED2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		038A382A158A7E340075EED2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		038A382C158A7E340075EED2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03E5D20D1591B4230020973B /* JAGridImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridImage.h; sourceTree = SOURCE_ROOT; };
+		03E5D20E1591B4230020973B /* JAGridImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGridImage.m; sourceTree = SOURCE_ROOT; };
+		03E5D20F1591B4230020973B /* JAGridImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridImageControl.h; sourceTree = SOURCE_ROOT; };
+		03E5D2101591B4230020973B /* JAGridImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGridImageControl.m; sourceTree = SOURCE_ROOT; };
+		03E5D2111591B4230020973B /* JAGridTableViewAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridTableViewAbstraction.h; sourceTree = SOURCE_ROOT; };
+		03E5D2121591B4230020973B /* JAGridTableViewAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGridTableViewAbstraction.m; sourceTree = SOURCE_ROOT; };
+		03E5D2131591B4230020973B /* JAGridTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		03E5D2141591B4230020973B /* JAGridTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGridTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		03E5D2151591B4230020973B /* JAGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridView.h; sourceTree = SOURCE_ROOT; };
+		03E5D2161591B4230020973B /* JAGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGridView.m; sourceTree = SOURCE_ROOT; };
+		03E5D2171591B4230020973B /* JAGridViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGridViewDelegate.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038A3821158A7E340075EED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038A3829158A7E340075EED2 /* UIKit.framework in Frameworks */,
+				038A382B158A7E340075EED2 /* Foundation.framework in Frameworks */,
+				038A382D158A7E340075EED2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038A3819158A7E340075EED2 = {
+			isa = PBXGroup;
+			children = (
+				038A382E158A7E340075EED2 /* JAGridViewDemo */,
+				038A3827158A7E340075EED2 /* Frameworks */,
+				038A3825158A7E340075EED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038A3825158A7E340075EED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038A3824158A7E340075EED2 /* JAGridViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038A3827158A7E340075EED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				038A3828158A7E340075EED2 /* UIKit.framework */,
+				038A382A158A7E340075EED2 /* Foundation.framework */,
+				038A382C158A7E340075EED2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		038A382E158A7E340075EED2 /* JAGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				038A3849158A7E680075EED2 /* JAGridView */,
+				033C8CF315919A01008D4E14 /* JAAppDelegate.h */,
+				033C8CF415919A01008D4E14 /* JAAppDelegate.m */,
+				033C8CF515919A02008D4E14 /* JAViewController.h */,
+				033C8CF615919A02008D4E14 /* JAViewController.m */,
+				038A385A158A80030075EED2 /* External */,
+				038A382F158A7E340075EED2 /* Supporting Files */,
+			);
+			name = JAGridViewDemo;
+			path = GridViewTest;
+			sourceTree = "<group>";
+		};
+		038A382F158A7E340075EED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033C8D1915919A3F008D4E14 /* JAGridViewDemo-Info.plist */,
+				033C8D1E15919A46008D4E14 /* InfoPlist.strings */,
+				033C8D1A15919A3F008D4E14 /* JAGridViewDemo-Prefix.pch */,
+				033C8D1B15919A3F008D4E14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		038A3849158A7E680075EED2 /* JAGridView */ = {
+			isa = PBXGroup;
+			children = (
+				03E5D2151591B4230020973B /* JAGridView.h */,
+				03E5D2161591B4230020973B /* JAGridView.m */,
+				03E5D2171591B4230020973B /* JAGridViewDelegate.h */,
+				03E5D2111591B4230020973B /* JAGridTableViewAbstraction.h */,
+				03E5D2121591B4230020973B /* JAGridTableViewAbstraction.m */,
+				03E5D2131591B4230020973B /* JAGridTableViewCell.h */,
+				03E5D2141591B4230020973B /* JAGridTableViewCell.m */,
+				03E5D20F1591B4230020973B /* JAGridImageControl.h */,
+				03E5D2101591B4230020973B /* JAGridImageControl.m */,
+				03E5D20D1591B4230020973B /* JAGridImage.h */,
+				03E5D20E1591B4230020973B /* JAGridImage.m */,
+			);
+			name = JAGridView;
+			sourceTree = "<group>";
+		};
+		038A385A158A80030075EED2 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				038A385E158A80C40075EED2 /* AFNetworking */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		038A385E158A80C40075EED2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				033C8CF915919A12008D4E14 /* AFHTTPClient.h */,
+				033C8CFA15919A12008D4E14 /* AFHTTPClient.m */,
+				033C8CFB15919A12008D4E14 /* AFHTTPRequestOperation.h */,
+				033C8CFC15919A12008D4E14 /* AFHTTPRequestOperation.m */,
+				033C8CFD15919A12008D4E14 /* AFImageRequestOperation.h */,
+				033C8CFE15919A12008D4E14 /* AFImageRequestOperation.m */,
+				033C8CFF15919A12008D4E14 /* AFJSONRequestOperation.h */,
+				033C8D0015919A12008D4E14 /* AFJSONRequestOperation.m */,
+				033C8D0115919A12008D4E14 /* AFJSONUtilities.h */,
+				033C8D0215919A12008D4E14 /* AFJSONUtilities.m */,
+				033C8D0315919A12008D4E14 /* AFNetworkActivityIndicatorManager.h */,
+				033C8D0415919A12008D4E14 /* AFNetworkActivityIndicatorManager.m */,
+				033C8D0515919A12008D4E14 /* AFNetworking.h */,
+				033C8D0615919A12008D4E14 /* AFPropertyListRequestOperation.h */,
+				033C8D0715919A12008D4E14 /* AFPropertyListRequestOperation.m */,
+				033C8D0815919A12008D4E14 /* AFURLConnectionOperation.h */,
+				033C8D0915919A12008D4E14 /* AFURLConnectionOperation.m */,
+				033C8D0A15919A12008D4E14 /* AFXMLRequestOperation.h */,
+				033C8D0B15919A12008D4E14 /* AFXMLRequestOperation.m */,
+				033C8D0C15919A12008D4E14 /* UIImageView+AFNetworking.h */,
+				033C8D0D15919A12008D4E14 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = External/AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038A3823158A7E340075EED2 /* JAGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038A3842158A7E340075EED2 /* Build configuration list for PBXNativeTarget "JAGridViewDemo" */;
+			buildPhases = (
+				038A3820158A7E340075EED2 /* Sources */,
+				038A3821158A7E340075EED2 /* Frameworks */,
+				038A3822158A7E340075EED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAGridViewDemo;
+			productName = GridViewTest;
+			productReference = 038A3824158A7E340075EED2 /* JAGridViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038A381B158A7E340075EED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 038A381E158A7E340075EED2 /* Build configuration list for PBXProject "JAGridViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 038A3819158A7E340075EED2;
+			productRefGroup = 038A3825158A7E340075EED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038A3823158A7E340075EED2 /* JAGridViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038A3822158A7E340075EED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C8D2015919A46008D4E14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038A3820158A7E340075EED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C8D1D15919A3F008D4E14 /* main.m in Sources */,
+				033C8CF715919A02008D4E14 /* JAAppDelegate.m in Sources */,
+				033C8CF815919A02008D4E14 /* JAViewController.m in Sources */,
+				033C8D0E15919A12008D4E14 /* AFHTTPClient.m in Sources */,
+				033C8D0F15919A12008D4E14 /* AFHTTPRequestOperation.m in Sources */,
+				033C8D1015919A12008D4E14 /* AFImageRequestOperation.m in Sources */,
+				033C8D1115919A12008D4E14 /* AFJSONRequestOperation.m in Sources */,
+				033C8D1215919A12008D4E14 /* AFJSONUtilities.m in Sources */,
+				033C8D1315919A12008D4E14 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				033C8D1415919A12008D4E14 /* AFPropertyListRequestOperation.m in Sources */,
+				033C8D1515919A12008D4E14 /* AFURLConnectionOperation.m in Sources */,
+				033C8D1615919A12008D4E14 /* AFXMLRequestOperation.m in Sources */,
+				033C8D1715919A12008D4E14 /* UIImageView+AFNetworking.m in Sources */,
+				03E5D2181591B4230020973B /* JAGridImage.m in Sources */,
+				03E5D2191591B4230020973B /* JAGridImageControl.m in Sources */,
+				03E5D21A1591B4230020973B /* JAGridTableViewAbstraction.m in Sources */,
+				03E5D21B1591B4230020973B /* JAGridTableViewCell.m in Sources */,
+				03E5D21C1591B4230020973B /* JAGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		033C8D1E15919A46008D4E14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033C8D1F15919A46008D4E14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038A3840158A7E340075EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		038A3841158A7E340075EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038A3843158A7E340075EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGridViewDemo/JAGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JAGridViewDemo/JAGridViewDemo-Info.plist";
+				PRODUCT_NAME = JAGridViewDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		038A3844158A7E340075EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGridViewDemo/JAGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JAGridViewDemo/JAGridViewDemo-Info.plist";
+				PRODUCT_NAME = JAGridViewDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038A381E158A7E340075EED2 /* Build configuration list for PBXProject "JAGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A3840158A7E340075EED2 /* Debug */,
+				038A3841158A7E340075EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038A3842158A7E340075EED2 /* Build configuration list for PBXNativeTarget "JAGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A3843158A7E340075EED2 /* Debug */,
+				038A3844158A7E340075EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038A381B158A7E340075EED2 /* Project object */;
+}
