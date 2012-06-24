@@ -33,4 +33,8 @@
 @synthesize width;
 @synthesize height;
 
+- (NSUInteger)area {
+    return width * height;
+}
+
 @end
