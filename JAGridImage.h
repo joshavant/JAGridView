@@ -30,5 +30,6 @@
 @property (nonatomic, strong) NSURL *imageURL;
 @property (nonatomic, assign) NSUInteger width;
 @property (nonatomic, assign) NSUInteger height;
+@property (nonatomic, readonly) NSUInteger area;
 
 @end
