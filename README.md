@@ -30,8 +30,6 @@ A sample app is included to demonstrate how to use `JAGridView`.
  
 * Add support to the `JAGridViewDelegate` protocol for using a `UIImage` collection as a data source.
 
-* Reimplement the sorted model array logic using `NSSortDescriptor`s.
-
 
 ## Dependencies
 * [AFNetworking](http://afnetworking.org)
