@@ -76,34 +76,10 @@
         imageModel.width = [[imageDict objectForKey:@"width"] unsignedIntegerValue];
         imageModel.height = [[imageDict objectForKey:@"height"] unsignedIntegerValue];
         
-        NSUInteger newImagePixelArea = imageModel.width * imageModel.height;
-
-        // TODO: Reimplement this with an NSSortDescriptor!
-        if([imageModelArray count] == 0)
-        {
-            [imageModelArray addObject:imageModel];
-        }
-        else
-        {            
-            for(int i = 0; i < [imageModelArray count]; i++)
-            {
-                JAGridImage *existingImageModel = [imageModelArray objectAtIndex:i];
-                
-                NSUInteger existingImagePixelArea = existingImageModel.width * existingImageModel.height;
-                
-                if(newImagePixelArea > existingImagePixelArea)
-                {
-                    [imageModelArray insertObject:imageModel atIndex:i];
-                    break;
-                }
-                else if(i == [imageModelArray count] - 1)
-                {
-                    [imageModelArray addObject:imageModel];
-                    break;
-                }
-            }  
-        }
+        [imageModelArray addObject:imageModel];
     }
+    
+    [imageModelArray sortUsingDescriptors:[NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"area" ascending:NO]]];
     
     return imageModelArray;
 }
